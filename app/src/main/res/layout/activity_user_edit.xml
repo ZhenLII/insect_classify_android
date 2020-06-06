@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Others.UserEdit">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lightblue"
+        >
+        <com.xuexiang.xui.widget.actionbar.TitleBar
+            android:id="@+id/userEditTitleBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/xui_config_color_titlebar"
+            app:tb_barHeight="65dp"
+            app:tb_dividerColor="@color/xui_config_color_titlebar"
+            app:tb_subTitleText="用户信息编辑"
+            app:tb_titleText="编辑"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
